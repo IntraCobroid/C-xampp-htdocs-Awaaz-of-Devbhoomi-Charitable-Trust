@@ -5,8 +5,8 @@ use Razorpay\Api\Errors\SignatureVerificationError;
 
 session_start();
 
-$keyId = ''; 
-$keySecret = '';
+$keyId = 'rzp_test_IxA7xmqMlOX4EW';  
+$keySecret = 'WVdCwnDbdPyqBAwBuQ4WPQfw';  
 
 $api = new Api($keyId, $keySecret);
 
