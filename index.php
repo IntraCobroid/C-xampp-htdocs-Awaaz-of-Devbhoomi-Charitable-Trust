@@ -115,11 +115,11 @@ if (isset($_SESSION['volunteer_id'])) {
             <h4>Get in Touch</h4>
             <p>
                 <i class="fas fa-phone"></i>
-                <a href="tel:+919876543210" style="text-decoration: none; color: inherit;">+91-9876543210</a>
+                <a href="tel:+919368080321" style="text-decoration: none; color: inherit;">+91-9368080321</a>
             </p>
             <p>
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:info@awaazdevbhoomi.org" style="text-decoration: none; color: inherit;">info@awaazdevbhoomi.org</a>
+                <a href="mailto:awaazofdevbhoomi@gmail.com" style="text-decoration: none; color: inherit;">awaazofdevbhoomi@gmail.com</a>
             </p>
             <p><i class="fas fa-map-marker-alt"></i> Awaaz of Devbhoomi Charitable Trust, Dehradun, Uttarakhand, India</p>
 

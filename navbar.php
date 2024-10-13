@@ -1,15 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg p-3 mb-5">
-<a class="navbar-brand" href="index.php">Awaaz of Devbhoomi Charitable Trust</a>
+  <a class="navbar-brand" href="index.php">Awaaz of Devbhoomi Charitable Trust</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <!-- Login notice link -->
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Please Login To Continue <span class="sr-only">(current)</span></a>
-      </li>
+    <donation_form class="navbar-nav">
 
       <!-- Dropdown for login options -->
       <li class="nav-item dropdown">
@@ -23,34 +19,34 @@
           <a class="dropdown-item" href="login/volunteerLogin.php">Volunteer</a>
         </div>
       </li>
-
+      <li class="nav-item active">
+        <a class="nav-link" href="donation_form.html">Donation</a>
+      </li>
       <li class="nav-item active">
         <a class="nav-link" href="about.php">About</a>
       </li>
-  
+
       <li class="nav-item active">
         <a class="nav-link" href="gallery.php">Gallery</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="contact.php">Contact Us</a>
       </li>
-    </ul>
   </div>
 </nav>
 
 
 <style>
- .navbar-brand {
-    color: rgb(161, 201, 201); 
-    padding: 10px; 
+  .navbar-brand {
+    color: rgb(161, 201, 201);
+    padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s;
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.25rem;
-}
+  }
 
-.navbar-nav{
-  font-size: 1.0rem;
-}
+  .navbar-nav {
+    font-size: 1.0rem;
+  }
 </style>
-
