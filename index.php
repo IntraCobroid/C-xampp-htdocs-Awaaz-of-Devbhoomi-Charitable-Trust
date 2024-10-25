@@ -40,7 +40,6 @@ require_once "./pdo.php";
 <body>
 
 <?php
-// Check which user is logged in and include the respective index file
 if (isset($_SESSION['volunteer_id'])) {
     require_once "volunteerIndex.php";
 } else if (isset($_SESSION['admin_id'])) {

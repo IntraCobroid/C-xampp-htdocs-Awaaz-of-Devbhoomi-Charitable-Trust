@@ -9,10 +9,10 @@
 
       <!-- Dropdown for login options -->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           Login Here
-        </a>
+        </a> -->
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="login/adminLogin.php">Admin</a>
           <a class="dropdown-item" href="login/donorLogin.php">Donor</a>
@@ -20,14 +20,16 @@
         </div>
       </li>
       <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home</a>
+      </li>
+      <li class="nav-item active">
         <a class="nav-link" href="donation_form.html">Donation</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="about.php">About</a>
-      </li>
-
-      <li class="nav-item active">
         <a class="nav-link" href="gallery.php">Gallery</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.php">About</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="contact.php">Contact Us</a>
